@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    justify-content: center
+  }
+  
+  .logo-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .logo-text {
+    margin-left: 0.5rem;
+  }
