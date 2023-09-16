@@ -211,7 +211,7 @@ export const AddNewFertilizer = () => {
                 <Input
                   error={errorInputNutriens.name}
                   size="lg"
-                  name={t('full-name')}
+                  name="name"
                   value={inputs.name}
                   onChange={handleChange}
                   label={t('full-name')}
@@ -259,7 +259,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.gramsPerMeter}
                   type="number"
                   size="lg"
-                  name={t('grams')}
+                  name="gramsPerMeter"
                   value={inputs.gramsPerMeter}
                   onChange={handleChange}
                   label={t('grams')}
@@ -288,7 +288,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.nitrogen}
                   type="number"
                   size="lg"
-                  name={t('nitrogen')}
+                  name="nitrogen"
                   value={inputs.nitrogen}
                   onChange={handleChange}
                   label={t('nitrogen')}
@@ -310,7 +310,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.phosphorus}
                   type="number"
                   size="lg"
-                  name={t('phosphorus')}
+                  name="phosphorus"
                   value={inputs.phosphorus}
                   onChange={handleChange}
                   label={t('phosphorus')}
@@ -332,7 +332,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.potassium}
                   type="number"
                   size="lg"
-                  name={t('potassium')}
+                  name="potassium"
                   value={inputs.potassium}
                   onChange={handleChange}
                   label={t('potassium')}
@@ -354,7 +354,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.magnesium}
                   type="number"
                   size="lg"
-                  name={t('magnesium')}
+                  name="magnesium"
                   value={inputs.magnesium}
                   onChange={handleChange}
                   label={t('magnesium')}
@@ -376,7 +376,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.sulfur}
                   type="number"
                   size="lg"
-                  name={t('sulfur')}
+                  name="sulfur"
                   value={inputs.sulfur}
                   onChange={handleChange}
                   label={t('sulfur')}
@@ -398,7 +398,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.boron}
                   type="number"
                   size="lg"
-                  name={t('boron')}
+                  name="boron"
                   value={inputs.boron}
                   onChange={handleChange}
                   label={t('boron')}
@@ -420,7 +420,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.iron}
                   type="number"
                   size="lg"
-                  name={t('iron')}
+                  name="iron"
                   value={inputs.iron}
                   onChange={handleChange}
                   label={t('iron')}
@@ -442,7 +442,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.manganese}
                   type="number"
                   size="lg"
-                  name={t('manganese')}
+                  name="manganese"
                   value={inputs.manganese}
                   onChange={handleChange}
                   label={t('manganese')}
@@ -464,7 +464,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.zinc}
                   type="number"
                   size="lg"
-                  name={t('zinc')}
+                  name="zinc"
                   value={inputs.zinc}
                   onChange={handleChange}
                   label={t('zinc')}
@@ -487,7 +487,7 @@ export const AddNewFertilizer = () => {
                   error={errorInputNutriens.calcium}
                   type="number"
                   size="lg"
-                  name={t('calcium')}
+                  name="calcium"
                   value={inputs.calcium}
                   onChange={handleChange}
                   label={t('calcium')}
