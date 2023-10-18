@@ -27,4 +27,6 @@ Check it out on the web: [Fertilization Manager](https://lawnmanager.maihom.ovh)
 ## Want to Join?
 Just contact me! Every bit of help is greatly appreciated. While this project is currently nonprofit, it may become a good place for advertising in the future.
 
+## MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
